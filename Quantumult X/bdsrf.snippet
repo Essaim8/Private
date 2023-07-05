@@ -21,8 +21,8 @@ hostname = imeres.baidu.com, mbd.baidu.com, mime.baidu.com
 ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input url echo-response application/json echo-response https://github.com/Keywos/rule/raw/main/mocks/bd.json
 
 #百度伪装搜索
-^https?:\/\/www\.baidu\.com url 302 https://m.baidu.com
+;^https?:\/\/www\.baidu\.com url 302 https://m.baidu.com
 
-^https?:\/\/m\.baidu\.com url script-request-header https://raw.githubusercontent.com/Essaim8/test/main/baidu-user-agent.js
+;^https?:\/\/m\.baidu\.com url script-request-header https://raw.githubusercontent.com/Essaim8/test/main/baidu-user-agent.js
 
-^https?:\/\/(www|m)\.baidu\.com(/|\/\?ref.*|\/\?from.*)$ url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js
+;^https?:\/\/(www|m)\.baidu\.com(/|\/\?ref.*|\/\?from.*)$ url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js
