@@ -1,6 +1,6 @@
 {
   "name": "Essaim图标订阅",
-  "description": "更新日期：2024-1-28 22:12:14",
+  "description": "更新日期：22:25:24",
   "icons": [
     {
       "name": "163",
@@ -14,5 +14,5 @@
       "name": "gaodemap",
       "url": "https://raw.githubusercontent.com/Essaim8/Private/main/gaodemap.PNG"
     }
-  ]
+  ],
 }
